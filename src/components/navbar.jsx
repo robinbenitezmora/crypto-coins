@@ -1,29 +1,29 @@
-import React from 'react';
-import {
-  Menu, Avatar,
-} from 'antd';
-import { Link } from 'react-router-dom';
-import {
-  HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOutlined, FontSizeOutlined,
-} from '@ant-design/icons';
+import { Navlink } from 'react-router-dom';
 
-const navbar = () => (
+const Navbar = () => (
   <div className="nav-container">
     <div className="logo-container">
-      <Avatar src="" size="large" />
+      <Navlink to="/">
+        <div className="logo">
+          <img src="http://cryptologos.cc/logos/bitcoin-btc-logo.png" alt="logo" />
+          <h1>CryptoVerse</h1>
+        </div>
+      </Navlink>
     </div>
-    <Menu theme="dark">
-      <Menu.Item icon={<HomeOutlined />}>
-        <Link to="/">Home</Link>
-      </Menu.Item>
-      <Menu.Item icon={<FontSizeOutlined />}>
-        <Link to="/cryptocurrencies">Cryptocurrencies</Link>
-      </Menu.Item>
-      <Menu.Item icon={<MoneyCollectOutlined />}>
-        <Link to="/exchanges">Exchanges</Link>
-      </Menu.Item>
-    </Menu>
+    <div className="nav-links">
+      <ul>
+        <li>
+          <Navlink to="/">Home</Navlink>
+        </li>
+        <li>
+          <Navlink to="/exchanges">Exchanges</Navlink>
+        </li>
+        <li>
+          <Navlink to="/news">News</Navlink>
+        </li>
+      </ul>
+    </div>
   </div>
 );
 
-export default navbar;
+export default Navbar;
