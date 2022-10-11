@@ -5,6 +5,7 @@ function Navbar() {
     <nav className="navbar">
       <NavLink to="/" className="navbar-brand" end>
         <img className="back" src="https://img.icons8.com/ios/50/000000/back.png" alt="back" />
+        <p>BACK</p>
       </NavLink>
       <NavLink to="/" className="navbar-brand">
         <img className="logo" src="https://i.imgur.com/3spxlXG.gif" alt="logo" />

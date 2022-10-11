@@ -13,7 +13,7 @@ export const fetchCryptoCurrencies = createAsyncThunk(
       name: crypto.name,
       symbol: crypto.symbol,
       image: crypto.image,
-      current_price: crypto.current_price,
+      price: crypto.current_price,
       rank: crypto.market_cap_rank,
       highprice: crypto.high_24h,
       lowprice: crypto.low_24h,

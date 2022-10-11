@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable max-len */
 import React from 'react';
-import Proptypes, { Object } from 'prop-types';
+import PropTypes, { Object } from 'prop-types';
 import { Link } from 'react-router-dom';
 import CryptoElement from './CryptoStructure';
 import Crypto from './Crypto';
@@ -26,7 +26,7 @@ const CryptoElementList = (props) => {
 };
 
 CryptoElementList.propTypes = {
-  cryptos: Proptypes.instanceOf(Object).isRequired,
+  cryptos: PropTypes.instanceOf(Object).isRequired,
 };
 
 export default CryptoElementList;

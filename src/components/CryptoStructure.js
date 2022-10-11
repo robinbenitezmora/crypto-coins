@@ -1,5 +1,5 @@
 import React from 'react';
-import Proptypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 const CryptoElement = (props) => {
   const { crypto } = props;
@@ -32,13 +32,13 @@ const CryptoElement = (props) => {
 };
 
 CryptoElement.propTypes = {
-  crypto: Proptypes.shape({
-    id: Proptypes.string.isRequired,
-    name: Proptypes.string.isRequired,
-    symbol: Proptypes.string.isRequired,
-    price: Proptypes.number.isRequired,
-    rank: Proptypes.number.isRequired,
-    image: Proptypes.string.isRequired,
+  crypto: PropTypes.shape({
+    name: PropTypes.string,
+    symbol: PropTypes.string,
+    price: PropTypes.number,
+    id: PropTypes.string,
+    rank: PropTypes.number,
+    image: PropTypes.string,
   }).isRequired,
 };
 

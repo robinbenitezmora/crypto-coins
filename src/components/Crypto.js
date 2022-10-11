@@ -30,13 +30,13 @@ const Crypto = () => {
             <div>
               <div className="cryptoHeader">
                 <div className="divider">
-                  <h3 className="cryptoHeaderSubTitle">Category</h3>
+                  <h3 className="cryptoHeaderSubTitle">Category:</h3>
                   <p className="cryptoCategory">
                     {singleCoin.categories[1] ? singleCoin.categories[1] : singleCoin.categories[0]}
                   </p>
                 </div>
                 <div className="divider">
-                  <h3 className="cryptoSubTitle">CMC Rank</h3>
+                  <h3 className="cryptoSubTitle">CMC Rank:</h3>
                   <p className="cryptoRank">{singleCoin.coingecko_rank}</p>
                 </div>
                 <div className="divider">
@@ -51,36 +51,36 @@ const Crypto = () => {
                 </div>
               </div>
               <div className="cryptoBody">
-                <h3 className="cryptoBodytitle">Changes Periods</h3>
+                <h3 className="cryptoBodytitle">Periodical Changes</h3>
                 <div className="cryptoPrices">
                   <div className="variations">
                     <h3 className="cryptoPrice">60 days:</h3>
                     <p className="cryptoPrice">
-                      {`${singleCoin.market_data.price_change_percentage_60d_in_currency.usd}%`}
+                      {`%${singleCoin.market_data.price_change_percentage_60d_in_currency.usd}`}
                     </p>
                   </div>
                   <div className="variations">
                     <h3 className="cryptoPrice">30 days:</h3>
                     <p className="cryptoPrice">
-                      {`${singleCoin.market_data.price_change_percentage_30d_in_currency.usd}%`}
+                      {`%${singleCoin.market_data.price_change_percentage_30d_in_currency.usd}`}
                     </p>
                   </div>
                   <div className="variations">
                     <h3 className="cryptoPrice">7 days:</h3>
                     <p className="cryptoPrice">
-                      {`${singleCoin.market_data.price_change_percentage_7d_in_currency.usd}%`}
+                      {`%${singleCoin.market_data.price_change_percentage_7d_in_currency.usd}`}
                     </p>
                   </div>
                   <div className="variations">
                     <h3 className="cryptoPrice">24 hours:</h3>
                     <p className="cryptoPrice">
-                      {`${singleCoin.market_data.price_change_percentage_24h_in_currency.usd}%`}
+                      {`%${singleCoin.market_data.price_change_percentage_24h_in_currency.usd}`}
                     </p>
                   </div>
                   <div className="variations">
                     <h3 className="cryptoPrice">1 hour:</h3>
                     <p className="cryptoPrice">
-                      {`${singleCoin.market_data.price_change_percentage_1h_in_currency.usd}%`}
+                      {`%${singleCoin.market_data.price_change_percentage_1h_in_currency.usd}`}
                     </p>
                   </div>
                 </div>

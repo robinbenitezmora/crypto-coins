@@ -4,13 +4,9 @@ import { fetchCryptoCurrencies } from '../redux/cryptoreducer';
 import CryptoElementList from './CryptoList';
 
 const Home = () => {
-  const [search, setSearch] = useState('');
+  const cryptos = useSelector((state) => state.cryptolist);
   const dispatch = useDispatch();
-  const cryptos = useSelector((state) => state.crypto.cryptosList);
-
-  useEffect(() => {
-    dispatch(fetchCryptoCurrencies());
-  }, []);
+  const [search, setSearch] = useState('');
 
   useEffect(() => {
     dispatch(fetchCryptoCurrencies());

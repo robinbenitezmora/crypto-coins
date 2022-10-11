@@ -13,7 +13,7 @@ const initialState = {
   message: true,
 };
 
-const coinSimpleSlice = createSlice({
+export const coinSimpleSlice = createSlice({
   name: 'coinsimple',
   initialState,
   reducers: {},
