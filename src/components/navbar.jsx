@@ -1,29 +1,23 @@
-import { Navlink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import { microphone } from 'react-icons-kit/icomoon/microphone';
 
-const Navbar = () => (
-  <div className="nav-container">
-    <div className="logo-container">
-      <Navlink to="/">
-        <div className="logo">
-          <img src="http://cryptologos.cc/logos/bitcoin-btc-logo.png" alt="logo" />
-          <h1>CryptoVerse</h1>
-        </div>
-      </Navlink>
-    </div>
-    <div className="nav-links">
-      <ul>
-        <li>
-          <Navlink to="/">Home</Navlink>
-        </li>
-        <li>
-          <Navlink to="/exchanges">Exchanges</Navlink>
-        </li>
-        <li>
-          <Navlink to="/news">News</Navlink>
-        </li>
+function Navbar() {
+  return (
+    <nav className="navbar">
+      <NavLink to="/" className="navbar-brand" end>
+        <img className="back" src="https://img.icons8.com/ios/50/000000/back.png" alt="back" />
+      </NavLink>
+      <NavLink to="/" className="navbar-brand">
+        <img className="logo" src="https://i.imgur.com/3spxlXG.gif" alt="logo" />
+      </NavLink>
+
+      <ul className="navbar-nav">
+        <li className="nav-item"><img className="nav-options" src={microphone} alt="microphone" /></li>
+        <li className="nav-item" />
+        <li className="nav-item" />
       </ul>
-    </div>
-  </div>
-);
+    </nav>
+  );
+}
 
 export default Navbar;

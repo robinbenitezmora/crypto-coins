@@ -19,14 +19,14 @@ const Crypto = () => {
         <p>{singleCoin.symbol}</p>
       </div>
       {
-        singleCoin === initialState 
+        singleCoin === initialState
           ? (
             <div className="loading">
               <p>Loading...</p>
               <img className="loadingImg" src="https://i.imgur.com/3spxlXG.gif" alt="loading" />
             </div>
           )
-          : (            
+          : (
             <div>
               <div className="cryptoHeader">
                 <div className="divider">
@@ -41,7 +41,10 @@ const Crypto = () => {
                 </div>
                 <div className="divider">
                   <h3 className="cryptoSubTitle">Price</h3>
-                  <p className="cryptoPrice">${singleCoin.market_data.current_price.usd}</p>
+                  <p className="cryptoPrice">
+                    $
+                    {singleCoin.market_data.current_price.usd}
+                  </p>
                 </div>
                 <div className="divider divider-img">
                   <img className="cryptoImg" src={singleCoin.image.small} alt="crypto" />
