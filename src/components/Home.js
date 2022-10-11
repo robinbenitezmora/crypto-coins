@@ -12,8 +12,6 @@ const Home = () => {
     dispatch(fetchCryptoCurrencies());
   }, []);
 
-
-
   useEffect(() => {
     dispatch(fetchCryptoCurrencies());
   }, []);

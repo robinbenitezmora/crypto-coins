@@ -1,5 +1,4 @@
 import { NavLink } from 'react-router-dom';
-import { microphone } from 'react-icons-kit/icomoon/microphone';
 
 function Navbar() {
   return (
@@ -12,7 +11,7 @@ function Navbar() {
       </NavLink>
 
       <ul className="navbar-nav">
-        <li className="nav-item"><img className="nav-options" src={microphone} alt="microphone" /></li>
+        <li className="nav-item"><img className="nav-options" src="" alt="microphone" /></li>
         <li className="nav-item" />
         <li className="nav-item" />
       </ul>
