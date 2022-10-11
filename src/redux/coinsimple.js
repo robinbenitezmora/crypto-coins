@@ -9,20 +9,19 @@ export const fetchCoinSimple = createAsyncThunk(
   },
 );
 
-const firstState = {
+const initialState = {
   message: true,
 };
 
-const coinsimpleSlice = createSlice({
+const coinSimpleSlice = createSlice({
   name: 'coinsimple',
-  initialState: firstState,
+  initialState,
   reducers: {},
   extraReducers: {
-    [fetchCoinSimple.pending]: () => firstState,
+    [fetchCoinSimple.pending]: () => initialState,
     [fetchCoinSimple.fulfilled]: (state, action) => action.payload,
-    [fetchCoinSimple.rejected]: () => firstState,
   },
 });
 
-export default coinsimpleSlice.reducer;
-export { firstState };
+export default coinSimpleSlice.reducer;
+export { initialState };

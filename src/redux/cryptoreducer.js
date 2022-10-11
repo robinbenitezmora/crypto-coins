@@ -20,6 +20,7 @@ export const fetchCryptonCurrencies = createAsyncThunk(
       circulating_supply: crypto.circulating_supply,
       total: crypto.total_supply,
       max: crypto.max_supply,
+      price_change_percentage_1h_in_currency: crypto.price_change_percentage_1h_in_currency,
       price_change_percentage_24h: crypto.price_change_percentage_24h,
       price_change_percentage_7d: crypto.price_change_percentage_7d,
       price_change_percentage_14d: crypto.price_change_percentage_14d,
