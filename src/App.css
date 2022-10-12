@@ -176,6 +176,24 @@ input {
   gap: 0.5rem;
 }
 
+.cryptoList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: #3622ef;
+}
+
+.cryptoListTitle {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 1rem;
+}
+
 .cryptoContainer {
   display: flex;
   flex-direction: column;
@@ -197,9 +215,10 @@ input {
   width: 100%;
   height: auto;
   padding: 0.5rem;
-  color: #d74e2c;
+  color: #2cd72f;
   font-size: 2rem;
   font-weight: 600;
+  text-shadow: #f5ebe8 0 0 1rem;
 }
 
 .cryptoBody {
@@ -210,16 +229,18 @@ input {
   width: 100%;
   height: auto;
   padding: 0.5rem;
-  border: #cdd22f 3px solid;
+  border: #fff 3px solid;
   border-radius: 0.5rem;
 }
 
 .cryptoBodyTitle {
   text-align: center;
   font-size: 1.5rem;
-  font-weight: 600;
-  color: #d74e2c;
+  font-weight: 700;
+  color: #2cd72f;
   padding: 1rem;
+  text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .cryptoHeader,

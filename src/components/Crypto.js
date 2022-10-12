@@ -109,27 +109,13 @@ const Crypto = () => {
                     </div>
                     <div className="cryptoSupply">
                       <h3>Max Supply:</h3>
-                      <p className="cryptoPrice">{singleCoin.market_data.max_supply}</p>
+                      <p className="cryptoPrice">{singleCoin.market_data.max_supply || 'There is not max supply data'}</p>
                     </div>
                     <div className="cryptoSupply">
                       <h3>Circulating Supply:</h3>
                       <p className="cryptoPrice">{singleCoin.market_data.circulating_supply}</p>
                     </div>
                   </div>
-                </div>
-                <div className="cryptoSocial">
-                  <a href={singleCoin.links.homepage[0]} target="_blank" rel="noreferrer">
-                    <img className="socialImg" src="https://i.imgur.com/1ZQ3wvD.png" alt="website" />
-                  </a>
-                  <a href={singleCoin.links.subreddit_url} target="_blank" rel="noreferrer">
-                    <img className="socialImg" src="https://i.imgur.com/1ZQ3wvD.png" alt="website" />
-                  </a>
-                  <a href={singleCoin.links.twitter_screen_name} target="_blank" rel="noreferrer">
-                    <img className="socialImg" src="https://i.imgur.com/1ZQ3wvD.png" alt="website" />
-                  </a>
-                  <a href={singleCoin.links.telegram_channel_identifier} target="_blank" rel="noreferrer">
-                    <img className="socialImg" src="https://i.imgur.com/1ZQ3wvD.png" alt="website" />
-                  </a>
                 </div>
               </div>
             </div>

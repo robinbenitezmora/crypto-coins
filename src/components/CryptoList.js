@@ -13,7 +13,7 @@ const CryptoElementList = (props) => {
 
   return (
     <div className="cryptoList">
-      <h3 className="cryptoListTitle">STATISTICS</h3>
+      <h3 className="cryptoListTitle">CRYPTO COINS CURRENT RANKING</h3>
       <ul className="cryptoListContainer">
         {filteredCryptos.map((crypto) => (
           <Link to={`/crypto/${crypto.id}`} element={<Crypto />} key={crypto.id}>
