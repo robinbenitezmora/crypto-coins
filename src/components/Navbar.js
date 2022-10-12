@@ -1,21 +1,28 @@
 import { NavLink } from 'react-router-dom';
+import { AiFillStepBackward } from 'react-icons/ai';
+import { SiBitcoin } from 'react-icons/si';
+import { BsBatteryHalf } from 'react-icons/bs';
+import { FaMicrophone } from 'react-icons/fa';
+import { VscSettingsGear } from 'react-icons/vsc';
 
 function Navbar() {
   return (
     <nav className="navbar">
       <NavLink to="/" className="navbar-brand" end>
-        <img className="back" src="https://img.icons8.com/ios/50/000000/back.png" alt="back" />
-        <p>BACK</p>
+        <AiFillStepBackward className="navbar-return" />
+        <span>2022</span>
       </NavLink>
-      <NavLink to="/" className="navbar-brand">
-        <img className="logo" src="https://i.imgur.com/3spxlXG.gif" alt="logo" />
+      <NavLink to="/" className="navbar-brand-title">
+        <SiBitcoin className="navbar-img" />
+        <h1>Crypto Currencies</h1>
       </NavLink>
-
-      <ul className="navbar-nav">
-        <li className="nav-item"><img className="nav-options" src="" alt="microphone" /></li>
-        <li className="nav-item" />
-        <li className="nav-item" />
-      </ul>
+      <div className="navbar-brand">
+        <div className="nav-item"><BsBatteryHalf className="navbar-icon" /></div>
+        <div className="navbar-user">
+          <div className="nav-item"><FaMicrophone className="navbar-icon" /></div>
+          <div className="nav-item"><VscSettingsGear className="navbar-icon" /></div>
+        </div>
+      </div>
     </nav>
   );
 }
