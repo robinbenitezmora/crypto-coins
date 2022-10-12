@@ -101,3 +101,22 @@ body {
   width: 100%;
   height: auto;
 }
+
+.homeSearch {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 3rem;
+  background: #1b0ab4;
+  padding: 1.5rem 0.5rem;
+  box-shadow: #000 0 0 10px;
+}
+
+input {
+  width: 50%;
+  height: 1.8rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  outline: none;
+}
