@@ -14,7 +14,7 @@
 - CSS
 
 ## 💻 Live demo
-- [Live Demo Link](https://moonlit-queijadas-da638a.netlify.app/)
+- [Live Demo Link](https://gregarious-pasca-272a68.netlify.app/)
 
 
 
