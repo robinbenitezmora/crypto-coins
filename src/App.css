@@ -62,21 +62,22 @@ body {
   font-weight: 600;
   color: #fff;
   text-align: center;
-  width: 65%;
+  width: 70%;
 }
 
 .navbar-img {
   font-size: 4rem;
-  color: #cdd22f;
-  width: 35%;
+  color: #2fd24d;
+  width: 30%;
 }
 
 .navbar-user {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: auto;
-  height: 50%;
+  width: 15%;
+  height: auto;
+  padding: 0.5rem;
 }
 
 .navbar-item {
@@ -89,21 +90,9 @@ body {
   justify-content: center;
   align-self: center;
   width: auto;
-  height: 50%;
+  height: auto;
   color: #fff;
   padding: 0.5rem;
-}
-
-.navbar-item-battery {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: auto;
-}
-
-.home {
-  background: #e71818;
 }
 
 .homeSearch {
@@ -208,12 +197,7 @@ input {
 }
 
 .cryptoTitle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: auto;
+  text-align: center;
   padding: 0.5rem;
   color: #2cd72f;
   font-size: 2rem;
@@ -271,4 +255,67 @@ input {
   border: #fff 1px solid;
   border-radius: 0.5rem;
   background-color: #e71818;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    padding: 1.5rem 2rem;
+  }
+
+  .navbar-return {
+    font-size: 3rem;
+  }
+
+  .navbar-brand span {
+    font-size: 1.5rem;
+  }
+
+  .navbar-brand-title {
+    width: 85%;
+    gap: 1rem;
+  }
+
+  .navbar-brand-title h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    width: 80%;
+  }
+
+  .navbar-img {
+    font-size: 5rem;
+    color: #42d22f;
+    width: 20%;
+  }
+
+  .navbar-user {
+    font-size: 2rem;
+  }
+
+  .homeSearch {
+    height: 4rem;
+  }
+
+  input {
+    height: 2.5rem;
+    font-size: 1.5rem;
+  }
+
+  .home-element-info {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+    font-size: 1.2rem;
+  }
+
+  .cryptoListTitle {
+    font-size: 2rem;
+  }
+
+  .cryptoTitle {
+    font-size: 2.5rem;
+  }
+
+  .cryptoBodyTitle {
+    font-size: 2rem;
+  }
 }

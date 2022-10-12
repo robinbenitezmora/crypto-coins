@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
+import { AiOutlineLoading3Quarters } from 'react-icons/ai';
 import { fetchCoinSimple, initialState } from '../redux/coinsimple';
 
 const Crypto = () => {
@@ -23,7 +24,7 @@ const Crypto = () => {
           ? (
             <div className="loading">
               <p>Loading...</p>
-              <img className="loadingImg" src="https://i.imgur.com/3spxlXG.gif" alt="loading" />
+              <AiOutlineLoading3Quarters />
             </div>
           )
           : (

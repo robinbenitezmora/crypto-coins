@@ -13,7 +13,7 @@ function Navbar() {
       </NavLink>
       <NavLink to="/" className="navbar-brand-title">
         <SiBitcoin className="navbar-img" />
-        <h1>Crypto Currencies</h1>
+        <h1>CRYPTO CURRENCIES</h1>
       </NavLink>
       <div className="navbar-brand">
         <div className="navbar-user">
