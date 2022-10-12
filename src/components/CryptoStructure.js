@@ -19,9 +19,6 @@ const CryptoElement = (props) => {
           <img className="image" src={image} alt={name} />
         </div>
         <div className="home-element-info">
-          <div className="home-element-image">
-            <img className="image" src={image} alt={name} />
-          </div>
           <h3 className="name">{name}</h3>
           <p className="symbol">{`(${symbol})`}</p>
           <p className="price">{`$${price.toLocaleString()}`}</p>

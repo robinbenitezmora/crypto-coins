@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div className="home">
       <div className="homeSearch">
-        <input type="text" placeholder="Search" onChange={handleChange} value={search} />
+        <input type="text" placeholder="Search your Crypto" onChange={handleChange} value={search} />
       </div>
       <CryptoElementList cryptos={cryptos} search={search} />
     </div>

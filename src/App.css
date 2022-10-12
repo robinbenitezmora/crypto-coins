@@ -102,6 +102,10 @@ body {
   height: auto;
 }
 
+.home {
+  background: #e71818;
+}
+
 .homeSearch {
   display: flex;
   align-items: center;
@@ -115,8 +119,59 @@ body {
 input {
   width: 50%;
   height: 1.8rem;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   border: none;
   border-radius: 0.5rem;
   outline: none;
+}
+
+.cryptoListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: #3622ef;
+}
+
+.homeElement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 22rem;
+  height: 25rem;
+  background: #1b0ab4;
+  box-shadow: #000 0 0 10px;
+  padding: 1rem;
+}
+
+.rank-arrow {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 0.5rem;
+}
+
+.home-element-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  gap: 0.5rem;
 }
