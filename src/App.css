@@ -175,3 +175,79 @@ input {
   font-weight: 600;
   gap: 0.5rem;
 }
+
+.cryptoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: #1b0ea8;
+  padding: 2rem 1rem;
+  box-shadow: #000 0 0 10px;
+  gap: 1rem;
+}
+
+.cryptoTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 0.5rem;
+  color: #d74e2c;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.cryptoBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 0.5rem;
+  border: #cdd22f 3px solid;
+  border-radius: 0.5rem;
+}
+
+.cryptoBodyTitle {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #d74e2c;
+  padding: 1rem;
+}
+
+.cryptoHeader,
+.cryptoPrices,
+.cryptoMovementsBody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: inherit;
+  padding: 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  gap: 0.5rem;
+  border: #f1f1f1 1px solid;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.divider,
+.variations,
+.cryptoSupply {
+  text-align: center;
+  font-size: 1.2rem;
+  box-shadow: #d8d8c1 0 0 2rem;
+  padding: 0.3rem;
+  border: #fff 1px solid;
+  border-radius: 0.5rem;
+  background-color: #e71818;
+}
