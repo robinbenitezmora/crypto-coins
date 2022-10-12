@@ -6,7 +6,7 @@ import { fetchCoinSimple, initialState } from '../redux/coinsimple';
 const Crypto = () => {
   const parameters = useParams();
   const dispatch = useDispatch();
-  const singleCoin = useSelector((state) => state.coin);
+  const singleCoin = useSelector((state) => state.coinSimple);
 
   useEffect(() => {
     dispatch(fetchCoinSimple(parameters));
