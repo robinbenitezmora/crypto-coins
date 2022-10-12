@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Capstone Project (Crypto Currency Tracker)
 
-## Available Scripts
 
-In the project directory, you can run:
+>
+> This is a capstone project for the Microverse React and Redux curriculum. The project is a crypto currency tracker that allows users to track the price of different crypto currencies. The project is built using JavaScript, React and Redux.
+## Built With
 
-### `npm start`
+- React
+- Redux
+- JavaScript
+- HTML
+- CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 💻 Live demo
+- [Live Demo Link](https://moonlit-queijadas-da638a.netlify.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+DEMO VIDEO LINK
+(https://www.loom.com/share/fce0b56024694121b917ef986110b10e)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If you want to clone this project:
+- Go to GitHub repository
+- Click on the green button that say 'Code'
+- Copy the SSH link
+- On your local machine, type the command git clone and paste the SSH link
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Prerequisites
+- Code editor
+- Knowledge in HTML
+- Knowledge in CSS
+- Knowledge in JavaScript
+- Knowledge in React
+- Knowledge in Redux
+- Handle on local repository Git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Setup
+- Clone the repository
+- Change directory into the project folder
+- Install dependencies
+- Open project with text editor to view changes
+- Run the code using [live server](https://www.google.com/search?client=safari&rls=en&q=live+server&ie=UTF-8&oe=UTF-8)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Install
+Clone this repository (you must have [Git Installed](https://github.com/git-guides/install-git))
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+`git clone git@github.com:robinbenitezmora/crypto-coins.git`
 
-## Learn More
+Then, move to the newly created folder `crypto-coins` using this command
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`cd crypto-coins`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Then, install dependencies using this command
 
-### Code Splitting
+Then, install dependencies using this command
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To open the project in Visual Studio Code type the following command inside the _books_with_es6_ folder
 
-### Analyzing the Bundle Size
+`code .`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+In order to visualize the project in your browser either open the index.html file directly from the file explorer or consider using a [live server for development ](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-### Making a Progressive Web App
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+👤 **Robin Benitez Mora**
 
-### Advanced Configuration
+- GitHub: [@robinbenitezmora](https://github.com/robinbenitezmora)
+- Twitter: [@Mecanico_Robin](https://twitter.com/mecanico_robin)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/robin-benitez-mora-manizales)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Show your support
 
-### Deployment
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Acknowledgments
 
-### `npm run build` fails to minify
+-I thank Microverse for its documentation, and my mentor, David Verde for his support, guidance and patient by sharing his large knowledge.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
