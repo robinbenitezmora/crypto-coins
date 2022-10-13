@@ -48,3 +48,23 @@ describe('Testing components rendering properly', () => {
     expect(tree).toMatchSnapshot();
   });
 });
+
+describe('Testing components rendering properly', () => {
+  let renderInstance;
+
+  beforeEach(() => {
+    renderInstance = render(
+      <BrowserRouter>
+        <Provider store={store}>
+          <Home />
+        </Provider>
+      </BrowserRouter>,
+    );
+  });
+
+  afterEach(jest.clearAllMocks);
+
+  test('Home renders correctly', () => {
+    expect(renderInstance).toBeTruthy();
+  });
+});
