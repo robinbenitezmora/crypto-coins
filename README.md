@@ -19,7 +19,7 @@
 
 
 DEMO VIDEO LINK
-(https://www.loom.com/share/fce0b56024694121b917ef986110b10e)
+(https://drive.google.com/file/d/1yPxjEHKIb629FyoHiB8xIgkUQjGIIotT/view?usp=sharing)
 
 
 ## Getting Started
