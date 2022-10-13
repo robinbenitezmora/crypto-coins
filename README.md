@@ -81,7 +81,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
--I thank Microverse for its documentation, and my mentor, David Verde for his support, guidance and patient by sharing his large knowledge.
+- Special thanks to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) that inspired to create this project.
+
+- I thank Microverse for its documentation, and my mentor, David Verde for his support, guidance and patient by sharing his large knowledge.
 
 ## 📝 License
 
