@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable max-len */
 import React from 'react';
-import PropTypes, { Object } from 'prop-types';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import CryptoElement from './CryptoStructure';
 import Crypto from './Crypto';
@@ -26,7 +26,17 @@ const CryptoElementList = (props) => {
 };
 
 CryptoElementList.propTypes = {
-  cryptos: PropTypes.instanceOf(Object).isRequired,
+  cryptos: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string,
+      name: PropTypes.string,
+      symbol: PropTypes.string,
+      price: PropTypes.number,
+      rank: PropTypes.number,
+      image: PropTypes.string,
+    }),
+  ).isRequired,
+  search: PropTypes.string.isRequired,
 };
 
 export default CryptoElementList;
